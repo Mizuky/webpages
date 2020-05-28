@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Portfolio Webpage</title>
+  
+  <style>
+    body{
+      width: auto;
+      background-color: #58a4b1;
+    }
+    .nav{
+      top: 0;
+      width: 100%;
+      height: 70px;
+      background-color: #ffb367;
+      margin: 0 auto;
+      position: fixed;
+      z-index: 9999;
+    }
+    
+    .nav-img{
+      width:40px;
+      height: 40px;
+      float: left;
+      padding-left:20px;
+      padding-top:32px;
+    }
+    .nav-img:hover{
+      width: 60px;
+      height: 60px;
+      padding-top: 15px;
+      
+    }
+     ul{
+      list-style: none;
+      float: right;
+    }
+    li{
+      display: inline;
+      margin: 20px;
+      font-size: 20px;
+      font-family: Comic Sans MS,Times New Roman,Serif;
+      
+    }
+    
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    a:hover{
+      color: #afe2bc;
+      text-shadow: 2px 5px 2px grey;
+    } 
+    
+    #Hello{
+      font-size: 50px;
+      font-family: noset;
+      text-align: center;
+      margin: 180px;
+      color: #ffe277;
+    }
+    #Like{
+      background-color: #ffe2bc;
+      width: auto;
+      height: 800px;
+      margin-top: 300px;
+      margin-bottom: 300px;
+      
+      
+    }
+    
+    
+    #Like-p{
+      padding-top: 50px;
+      text-align: center;
+      font-size: 30px;
+      font-family: unset;
+    }
+    #Like-img{
+      width: 50px;
+      height: 50px;
+      margin: 100px;
+    }
+    #span{
+     width: 60%;
+      font-size: 20px;
+      margin-left: 200px;
+      margin-top: -150px;
+      
+    }
+    #contact{
+      font-size: 20px;
+      float: left;
+      margin-top: -200px;
+      margin-left: 100px;
+    }
+    #c-img{
+      width: 40px;
+      height: 40px;
+      margin: 20px;
+      position:relative;
+      float: left;
+    }
+    footer{
+      float: right;
+      margin: 30px;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="nav">
+  <div>
+    <img src="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/132-woman-student-2-128.png" class="nav-img" title="I'm a student">
+    <img src="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/164-woman-technologist-2-128.png" class="nav-img" title="I'm a Web design beginner">
+    <div class="head-ul">
+      <ul>
+      <li><a href="#nav">Hello</a></li>
+      <li><a href="#Like">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  </div>
+   </div>
+  <div id="Hello">
+    <img src="https://cdn4.iconfinder.com/data/icons/kid-playground-and-toys/32/Artboard_1-128.png">
+    <p>Hello, I am Zion!</p>
+    </div>
+  
+  <div id="Like">
+    <p id="Like-p" style="font-size:40px;">Something about me</p>
+    <p id="Like-p">My Hobbies</p>
+      <div id="img1">
+        <img src="https://cdn0.iconfinder.com/data/icons/emoji-3-5/64/reading_book_emoji-128.png" id="Like-img">
+      </div>
+    <div id="span">
+      <span>“The reading of all good books is like conversation with the finest (people) of the past centuries.”</span>
+    </div>
+      <div>
+        <img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/dev-128.png" id="Like-img">
+        </div>
+    <div id="span">
+      <span>"The coding process begins while en route between the retina and our conscious mind."</span>
+    </div>
+        <div>
+          <img src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/camera-128.png" id="Like-img">
+        </div>
+    <div id="span">
+      <span>“Taking an image, freezing a moment, reveals how rich reality truly is."</span>
+    </div>
+    </div>
+  </div>
+  <div id="contact">
+    <p>My contact information</p>
+    <ul>
+      <li><a href="#">
+        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-128.png" id="c-img">
+        </a></li>
+      <li><a href="#">
+        <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-128.png" id="c-img">
+        </a></li>
+      <li><a href="#">
+        <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-128.png" id="c-img">
+        </a></li>
+      <li><a href="#">
+        <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-128.png" id="c-img">
+        </a></li>
+    </ul>
+  </div>
+  <footer>
+    © Created by Zion,2020
+  </footer>
+  
+</body>
+</html>
