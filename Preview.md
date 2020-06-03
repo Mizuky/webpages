@@ -1,2 +1,5 @@
 ### 网页预览
-![文本说明]("https://github.com/Mizuky/webpages/blob/master/image/preview.png")
+
+<img src="https://github.com/Mizuky/webpages/blob/master/image/preview.png">
+
+![图片预览](https://github.com/Mizuky/webpages/blob/master/image/preview.png)
