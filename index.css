@@ -34,9 +34,11 @@ nav a:hover{
 .desc .hello{
   text-align: center;
   padding: 5%;
+  margin: 0 auto;
 }
 
 .hello img{
+  margin: 0 auto;
   width: 30%;
   padding-top: 100px;
 }
@@ -106,36 +108,39 @@ nav a:hover{
   margin: 0 auto;
 }
 
-.table-img{
-  width: 35%;
-  background-color: #79bac1;
+table tr td{
   padding: 5%;
+}
+
+.table-img{
+  background-color: #79bac1;
   border-radius: 20px;
   box-shadow: 8px 8px 10px rgba(50,50,50,0.8);
+  padding: 5%;
+  text-align: center;
 }
 
 .table-img img{
+  border-radius: 30px;
   width: 98%;
-  border-radius: 20px;
 }
 
 .box{
-  padding: 11% 5%;
   background-color: WhiteSmoke;
   border-radius: 30px;
+  padding: 11% 5%;
 }
 
 .box span{
   line-height: 2em;
   font-size: 1em;
-  font-family: 'Microsoft YaHei', Sans-serif;
 }
 
 .my-logo img{
 border-radius: 50%;
-  width: 13%;
-  margin: 0 5%;
-  border: 3px solid #abc2e8;
+border: 3px solid #abc2e8;
+width: 13%;
+margin:  0 5%;
 }
 
 .my-logo img:hover{
@@ -188,14 +193,14 @@ border-radius: 50%;
 
 .toTop{
   background-color: #888;
-  width: 80px;
+  width: 3%;
   height: 80px;
   margin-top: 2%;
   margin-left: 90%;
 }
 
 .toTop img{
-  width: 80px;
+  width: 3%;
 }
 
 footer{
