@@ -102,37 +102,41 @@ nav a:hover{
   padding-top: 80px;
 }
 
+.content{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .table-img{
   width: 35%;
   background-color: #79bac1;
-  padding: 50px;
+  padding: 5%;
   border-radius: 20px;
   box-shadow: 8px 8px 10px rgba(50,50,50,0.8);
 }
 
 .table-img img{
-  width: 100%;
+  width: 98%;
   border-radius: 20px;
 }
 
 .box{
-  padding: 80px 100px;
+  padding: 11% 5%;
   background-color: WhiteSmoke;
-  height: 250px;
   border-radius: 30px;
 }
 
 .box span{
   line-height: 2em;
   font-size: 1em;
-  font-family: 
+  font-family: 'Microsoft YaHei', Sans-serif;
 }
 
 .my-logo img{
 border-radius: 50%;
-  width: 60px;
-  border: 5px solid #abc2e8;
+  width: 13%;
+  margin: 0 5%;
+  border: 3px solid #abc2e8;
 }
 
 .my-logo img:hover{
